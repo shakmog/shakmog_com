@@ -8,6 +8,16 @@ development:
   password: 
   template: template0
 
+staging:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: shakmog_staging
+  pool:     5
+  username: shak
+  password: 
+  template: template0
+
 production:
   adapter:  postgresql
   host:     localhost
